@@ -1,0 +1,35 @@
+{
+  "name": "oci-savings-autopilot",
+  "version": "0.1.0",
+  "description": "Read-only OCI FinOps plugin that turns cost exports, inventory, and Cloud Advisor findings into prioritized savings plans.",
+  "author": {
+    "name": "Naveen Shaik"
+  },
+  "license": "Proprietary",
+  "keywords": [
+    "oci",
+    "finops",
+    "cost-optimization",
+    "cloud-advisor",
+    "savings"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "OCI Savings Autopilot",
+    "shortDescription": "Find OCI waste and turn it into customer-ready savings actions.",
+    "longDescription": "OCI Savings Autopilot analyzes exported OCI cost reports, Cloud Advisor recommendations, tags, and offline inventory to produce a savings ledger, implementation backlog, and executive summary. It is read-only by default and focuses on measurable monthly savings, effort, risk, and approval steps.",
+    "developerName": "Naveen Shaik",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Analysis",
+      "Reports"
+    ],
+    "brandColor": "#C74634",
+    "defaultPrompt": [
+      "Run OCI Savings Autopilot on exported cost data.",
+      "Create a customer savings ledger from OCI reports.",
+      "Prioritize quick OCI cost wins with rollback notes."
+    ]
+  }
+}

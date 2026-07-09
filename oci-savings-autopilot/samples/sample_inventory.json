@@ -1,0 +1,50 @@
+{
+  "resources": [
+    {
+      "id": "ocid1.instance.oc1..dev01",
+      "name": "dev-app-01",
+      "type": "compute_instance",
+      "service": "Compute",
+      "lifecycle_state": "RUNNING",
+      "compartment": "dev",
+      "region": "us-ashburn-1",
+      "monthly_cost": 120,
+      "cpu_avg_percent": 3,
+      "always_on": true,
+      "tags": {
+        "environment": "dev",
+        "owner": "apps-team",
+        "application": "billing"
+      }
+    },
+    {
+      "id": "ocid1.volume.oc1..old01",
+      "name": "old-boot-volume",
+      "type": "block_volume",
+      "service": "Block Volume",
+      "lifecycle_state": "AVAILABLE",
+      "compartment": "dev",
+      "region": "us-ashburn-1",
+      "monthly_cost": 85,
+      "attached": false,
+      "tags": {
+        "environment": "dev"
+      }
+    },
+    {
+      "id": "ocid1.bucket.oc1..logs01",
+      "name": "raw-logs-bucket",
+      "type": "object_storage_bucket",
+      "service": "Object Storage",
+      "compartment": "shared",
+      "region": "us-ashburn-1",
+      "monthly_cost": 200,
+      "lifecycle_policy": false,
+      "tags": {
+        "owner": "platform",
+        "application": "logging"
+      }
+    }
+  ]
+}
+

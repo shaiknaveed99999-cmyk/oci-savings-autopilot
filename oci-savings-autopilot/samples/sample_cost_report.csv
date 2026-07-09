@@ -1,0 +1,6 @@
+usage_date,service,resource_id,resource_name,compartment,region,cost,tag_environment,tag_owner,tag_application
+2026-07-01,Compute,ocid1.instance.oc1..dev01,dev-app-01,dev,us-ashburn-1,120,dev,apps-team,billing
+2026-07-01,Compute,ocid1.instance.oc1..prod01,prod-api-01,prod,us-ashburn-1,300,prod,apps-team,billing
+2026-07-01,Block Volume,ocid1.volume.oc1..old01,old-boot-volume,dev,us-ashburn-1,85,dev,,
+2026-07-01,Object Storage,ocid1.bucket.oc1..logs01,raw-logs-bucket,shared,us-ashburn-1,200,,platform,logging
+

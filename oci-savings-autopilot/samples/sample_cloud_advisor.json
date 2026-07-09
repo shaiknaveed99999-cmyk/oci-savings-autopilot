@@ -1,0 +1,21 @@
+[
+  {
+    "category": "Cost Management",
+    "recommendation": "Terminate unattached block volume",
+    "resource_id": "ocid1.volume.oc1..old01",
+    "resource_name": "old-boot-volume",
+    "estimated_monthly_savings": 85,
+    "status": "Pending",
+    "action": "Confirm retention requirement, snapshot if required, then delete volume."
+  },
+  {
+    "category": "Cost Management",
+    "recommendation": "Right-size underutilized compute instance",
+    "resource_id": "ocid1.instance.oc1..dev01",
+    "resource_name": "dev-app-01",
+    "estimated_monthly_savings": 30,
+    "status": "Pending",
+    "action": "Review CPU and memory trend, then move to smaller shape."
+  }
+]
+
